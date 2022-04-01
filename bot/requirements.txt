@@ -1,0 +1,4 @@
+requests==2.27.1
+py-cord==2.0.0b5
+skyfield==1.42
+pandas==1.4.1

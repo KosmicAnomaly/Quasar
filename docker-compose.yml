@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  bot:
+    container_name: bot
+    build: ./bot
+    restart: always
+    environment:
+      DISCORD_TOKEN:
+      NASA_API_KEY:
+      SUPPORT_CHANNEL_ID:
+    volumes:
+      - ./logs:/app/logs
+    working_dir: /app
